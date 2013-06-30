@@ -21,8 +21,31 @@
         background-color:#000;
         color:white;
       }
+
+      .green-text {
+        color:#8cc63f;
+      }
+
+      .orange-text {
+        color:#fbb03b;
+      }
+
       .buffer {
-        margin:23px;
+        margin:30px;
+      }
+      .space-bottom {
+        margin-bottom:30px;
+      }
+
+      .row.spacer {
+        height:90px;
+      }
+
+      .intro-unit {
+        height: 648px;
+      }
+      .intro-unit .buffer {
+        height:494px;
       }
 
       dd {
@@ -31,6 +54,36 @@
 
       dd:before {
         content: "...";
+      }
+
+      #tag_line {
+        float:right;
+        maring-right:30px;
+      }
+
+      .hero-unit {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+      }
+
+      .btn, .btn-large {
+        background:#fff;
+        padding:12px 20px;
+        border:0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        box-shadow: 1px 6px 1px -3px rgba(255,255,255,.4);
+      }
+      .btn.orange-background {
+        background-color: #fbb03b;
+        color:white;
+      }
+
+      .btn.green-background {
+        background-color: #8cc63f;
+        color:white;
       }
 
     </style>
@@ -46,20 +99,27 @@
       </hgroup>
     </header>
 
-    <aside class="hero-unit">
-      <p class="provisional">
-        Who needs us?
-      -nonprofits who need a contract specific platform project
-      -state governments who want to improve civic engagement and interaction
-      -hackathons that produce winners without sustained direction and finance
-      -corporations who want to finance a 3rd party social benefit project
+    <div class="row spacer">
+      <div class="span12 buffer black-background" style="height:30px">
+        &nbsp;
+      </div>
+    </div>
+
+    <aside class="hero-unit orange-text">
+      <h1>You Need Us!</h1>
+      <p class="green-text">
+        If you're an organization trying to drive interaction and engagement for social good or trying to find a talented workforce, DevUp has the professional resources you need. If you are someone trying to kickstart a new initiative or a talented professional testing the rough seas of a turbulent job market, DevUp has a role for you to create value in your community.
       </p>
-       <a class="btn btn-large" href="#call_to_action_professional">I want to solve meaningful problems</a>
-       <a class="btn btn-large" href="#call_to_action_technology_partner">I want to help find and developinformation workers</a>
-       <a class="btn btn-large" href="#call_to_action_client">I'm need help doing social good</a>
+
     </aside>
+
+    <div class="row spacer">
+      <div class="span12 buffer black-background" style="height:30px">
+        &nbsp;
+      </div>
+    </div>
     <section class="row">
-      <section id="info_client" class="span4 black-background">
+      <section id="info_client" class="intro-unit span4 orange-background">
         <div class="buffer">
           <header>
             <h2>Advance Projects and Reach of Social Change</h2>
@@ -78,12 +138,14 @@
           <p>
             DevUp will build actionable web/mobile software platforms on behalf of social good organizations that maximize community impact. We will drive projects through a mentorship program that enhances junior developer skills, thus preparing them for future professional opportunities.
           </p>
+
         </div>
+        <a class="span3 btn btn-large space-bottom green-background" href="#call_to_action_client">I need help doing social good</a>
       </section>
-      <section id="info_technology_partners" class="span4 green-background">
+      <section id="info_technology_partners" class="intro-unit span4 green-background">
         <div class="buffer">
           <header>
-          <h2>Develop and Identify Skilled Technologists</h2>
+          <h2>Develop and Identify Skilled Proffessionals</h2>
         </header>
         <caption>We want to facilitate successful organizations:</caption>
 
@@ -99,33 +161,69 @@
         <p>
           DevUp will build actionable web/mobile software platforms on behalf of social good organizations that maximize community impact. We will drive projects through a mentorship program that enhances junior developer skills, thus preparing them for future professional opportunities.
         </p>
+
         </div>
 
+        <a class="span3 btn btn-large space-bottom orange-background" href="#call_to_action_technology_partner">I want to help find and develop proffessionals</a>
+
       </section>
-      <section id="info_proffesional" class="span4 orange-background">
+      <section id="info_proffesional" class="intro-unit span4 orange-background">
         <div class="buffer">
           <header>
           <dl>
-            <h2>Contribute to social change and certify skills</h2>
+            <h2>Develop Useful Skills</h2>
           </header>
           <caption>We want to develop and resource talented professionals:</caption>
 
           <dl>
-            <dt>Problem 1) Who needs a skilled and diligent workforce?</dt>
-            <dd>the people who don't have time to build it!</dd>
+            <dt>Problem 1) How do you build credibility before you have any real-world experience?</dt>
+            <dd>by working on meaningful real-world problems!</dd>
            
-            <dt>Problem 2) How do you find a prove useful labor?</dt>
-            <dd>an organization targetted to build technology for social good!</dd>
+            <dt>Problem 2) How do you find real-world problems with meaningful outcomes</dt>
+            <dd>an organization targeted to build technology for social good!</dd>
             
           </dl>
 
           <p>
-            DevUp will build actionable web/mobile software platforms on behalf of social good organizations that maximize community impact. We will drive projects through a mentorship program that enhances junior developer skills, thus preparing them for future professional opportunities.
+            DevUp will find and develop real solutions to real problems faced by non-profits and social good organizations.  Proffesional mentors will help guide junior ones to good practices and techniques, readying them for the workforce.  The projects these junior proffessionals complete will support them as they seek advancement and employment.
           </p>
 
+          
+        </div>
+
+        <a class="span3 btn btn-large space-bottom green-background" href="#call_to_action_professional">I want to solve meaningful problems</a>
+      </section>
+    </section>
+    <div class="row spacer">
+      <div class="span12 buffer black-background" style="height:30px">
+      </div>
+    </div>
+    <section class="row">
+      <section class="span6 orange-background">
+        <div class="buffer">
+          <header>
+            <h1>Mission</h1>
+          </header>
+         <p>
+           
+         </p>
+        </div>
+      </section>
+      <section class="span6 orange-background">
+        <div class="buffer">
+          <header>
+            <h1>Management</h1>
+          </header>
+         <p>
+           
+         </p>
         </div>
       </section>
     </section>
+    <div class="row spacer"></div>
+    <div class="row spacer"></div>
+    <div class="row spacer"></div>
+    <div class="row spacer"></div>
   </div>
   
   <script src="http://code.jquery.com/jquery.js"></script>
